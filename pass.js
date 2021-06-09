@@ -18,4 +18,5 @@
     let btncopy=document.getElementById("btn2");
     btncopy.onclick=function(){
         passfield.select("password");
+        document.execCommand('copy');
     };
